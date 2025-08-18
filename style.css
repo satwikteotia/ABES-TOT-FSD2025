@@ -1,0 +1,26 @@
+h1{
+    color:aqua;
+}
+p{color:red;
+    background-color:aqua;
+} 
+ #p1{
+    background-color:antiquewhite;
+ }
+ .paragraph{background-color: blue;}
+    div+p{
+        background-color: blue;
+        color:white;
+    }
+div~p{
+                font-size: xx-large;
+                background-color: brown;
+                color:white;
+
+}
+p::after{
+    content:"we arwe";
+    background-color:brown;
+
+}
+p::selection{background-color: blueviolet;}
