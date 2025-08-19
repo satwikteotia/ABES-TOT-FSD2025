@@ -1,38 +1,39 @@
 .box{
     display: grid;
+    grid-template-columns: repeat(4,1fr);
      border: 2px solid red;
-    height: 800px;
+    height: 600px;
     width: 800px;
-    background-color: aqua;
+   
 }
 
 .box1{
     height:150px;
-    width: 200px;
+    width: 150px;
     border: 3px dotted rgb(2, 2, 31);
     background-color: rgb(7, 207, 131);
 }
 .box2{
     height:150px;
-    width: 200px;
+    width: 150px;
     border: 3px dotted rgb(19, 2, 59);
     background-color: rgb(238, 255, 0);
 }
 .box3{
     height:150px;
-    width: 200px;
+    width: 150px;
     border: 3px dotted #0a0600;
     background-color: rgb(119, 0, 255);
 }
 .box4{
     height:150px;
-    width: 200px;
+    width: 150px;
     border: 3px dotted hsl(0, 0%, 15%);
     background-color: rgb(207, 137, 166);
 }
 .box5{
     height:150px;
-    width: 200px;
+    width: 150px;
     border: 3px dotted #252525;
     background-color: rgb(243, 210, 202);
 }
