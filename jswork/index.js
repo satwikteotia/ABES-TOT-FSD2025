@@ -7,7 +7,14 @@
 // a=30;
 // console.log(a);
 //function expression
-const data=function(){
-    console.log("hi");
+// const data=function(){
+//     console.log("hi");
+// }
+// data();
+//arrow function
+const data=()=>{
+ return "hi i am arrow"
 }
-data();
+console.log(data());
+const sum=(a,b)=>a+b;
+add(4,5);
