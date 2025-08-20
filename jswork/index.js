@@ -19,9 +19,12 @@
 // const sum=(a,b)=>a+b;
 // add(4,5);
 //IIFE
-(()=>{
-    console.log("hello")
-})();
-(function(){
-    console.log("hello");
-})();
+// (()=>{
+//     console.log("hello")
+// })();
+// (function(){
+//     console.log("hello");
+// })();
+function fun(msg="hello"){console.log("hi"+msg);
+}
+console.log(fun("satwik"));
