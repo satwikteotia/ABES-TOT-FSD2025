@@ -25,6 +25,27 @@
 // (function(){
 //     console.log("hello");
 // })();
-function fun(msg="hello"){console.log("hi"+msg);
+// function fun(msg="hello"){console.log("hi"+msg);
+// }
+// console.log(fun("satwik"));
+
+function language(lang){
+    let data;
+    if (lang="java"){
+        function compiler(){
+            console.log("java compiler is executed");
+        }
+        data =compiler();
+    }
+    else if(lang=="(c"){
+        function cCompiler(){
+            console.log("c compiler");
+        }
+        data=cCompiler();
+    }
+    else{
+        console.log("selected language not found");
+    }
+    return data;
 }
-console.log(fun("satwik"));
+language("python");
