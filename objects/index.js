@@ -11,7 +11,8 @@ const emp={
     database2:"Mysql"
     },
     {
-        
+      framework1:"Hibernate",
+      framework2:"Spring"  
     }
 ]
 
