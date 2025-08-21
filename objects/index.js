@@ -17,4 +17,7 @@ const emp={
 ]
 
 }
-console.log(emp.planguage[0]);
+//for finding specific value in array
+//console.log(emp.planguage[0].lang2);
+emp.company="Infosys";
+console.log(emp);
