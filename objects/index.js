@@ -19,7 +19,8 @@ const emp={
 }
 //for finding specific value in array
 //console.log(emp.planguage[0].lang2);
-emp.company="Infosys";
-console.log(emp);
-emp.planguage[1].database1="Mongodb";
-console.log(emp);
+// emp.company="Infosys";//insertion
+// console.log(emp);
+// emp.planguage[1].database1="Mongodb";//updation
+// console.log(emp);
+delete emp.ename;//delete
