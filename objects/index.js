@@ -4,3 +4,4 @@ const emp={
     eaddress:"Ghaziabad"
 
 }
+console.log(emp);
