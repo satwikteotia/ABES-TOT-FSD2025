@@ -17,4 +17,4 @@ const emp={
 ]
 
 }
-console.log(emp.planguage);
+console.log(emp.planguage[0]);
