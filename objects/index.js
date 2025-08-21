@@ -21,3 +21,5 @@ const emp={
 //console.log(emp.planguage[0].lang2);
 emp.company="Infosys";
 console.log(emp);
+emp.planguage[1].database1="Mongodb";
+console.log(emp);
